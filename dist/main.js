@@ -1,0 +1,1 @@
+(()=>{"use strict";console.log("Index.js is running"),console.log("Generatting Joke - Your smile keeps many people happy !")})();
