@@ -1,19 +1,34 @@
 # webpack_configuration
 
-# installation of webpack,webpack commandline interface
+## installation of webpack,webpack commandline interface
 
 > > npm i -D webpack webpack-cli
-> > We dont' have the config file yet, hence we select --mode production in build command
+
+} in build command
+
+## Production Mode without Production
+
+> Set build as --mode production Since we dont' have the config file yet
+>
+> > ```"scripts": {
+> >      "build": "webpack --mode production",
+> > }
+> > ```
 
 # configuration of Entries - input,output
 
 > >
 
 ```
- entry: path.resolve(__dirname, "src/index.js"),
+
+entry: path.resolve(**dirname, "src/index.js"),
 output: {
-  path: path.resolve(__dirname, "dist"),
-  filename: "bundle.js",
+path: path.resolve(**dirname, "dist"),
+filename: "bundle.js",
 },
+
+```
+
+```
 
 ```
