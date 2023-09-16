@@ -120,7 +120,7 @@
 > >
 > > ```
 
-## bundle with contenthash & clean new output old bundles
+## bundle with contenthash & clean output old bundles
 
 > set clean as true
 >
@@ -130,4 +130,46 @@
 > >    filename: "[name][contenthash].js",
 > >    clean: true,
 > >    }
+> > ```
+
+## debug using source-map
+
+> source-map is useful for debug the bundle files using bundle.js.map file which is created specifically for debugging.
+>
+> > ```
+> >    devtool: 'source-map',
+> >
+> > ```
+
+## debug using babel & installation
+
+> source-map is useful for debug the bundle files using bundle.js.map file which is created specifically for debugging.
+>
+> > ```
+> >    npm i -D babel-loader @babel/core @babel/preset-env
+> >
+> > ```
+
+## configuration of babel
+
+> set clean as true
+>
+> > ```
+> >
+> > ```
+> >
+> > rules: [
+> > {
+> > test: /\.js$/,
+> > exclude: /node_modules/,
+> > use: {
+> > loader: "babel-loader",
+> > options: {
+> > presets: ["@babel/preset-env"],
+> > },
+> > },
+> > },
+> >
+> > ```
+> >
 > > ```
