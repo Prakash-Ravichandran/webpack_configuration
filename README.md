@@ -152,8 +152,6 @@
 
 ## configuration of babel
 
-> set clean as true
->
 > > ```
 > > rules: [
 > > {
