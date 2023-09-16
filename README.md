@@ -20,7 +20,7 @@
 
 ## configuration of entries - input,output
 
-> Specify where webpack has to start building its internal dependency graph
+> Specify where webpack has to start building its internal dependency graph.<br>
 > [Refer Entries in detail](https://webpack.js.org/concepts#entry).
 >
 > > ```
