@@ -1,12 +1,14 @@
 # webpack_configuration
 
-## installation of webpack,webpack commandline interface
+## installation of webpack,webpack cli
 
+> Save as dev dependencies
+>
 > > ```
 > >    npm i -D webpack webpack-cli
 > > ```
 
-## Production Mode without Production
+## Production mode without webpack.config.js
 
 > Set build as --mode production, since we dont' have the config file yet.
 >
@@ -18,7 +20,8 @@
 
 ## configuration of entries - input,output
 
-> Specify where webpack has to start building internal dependency graph
+> Specify where webpack has to start building its internal dependency graph
+> [Refer Entries in detail](https://webpack.js.org/concepts#entry).
 >
 > > ```
 > >
