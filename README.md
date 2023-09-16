@@ -16,14 +16,15 @@
 > > }
 > > ```
 
-# configuration of Entries - input,output
+## configuration of entries - input,output
 
-> Set build as --mode production, since we dont' have the config file yet.
+> Specify where webpack has to start building internal dependency graph
 >
 > > ```
-> > entry: path.resolve(**dirname, "src/index.js"),
+> >
+> > entry: path.resolve(__dirname, "src/index.js"),
 > > output: {
-> > path: path.resolve(**dirname, "dist"),
+> > path: path.resolve(__dirname, "dist"),
 > > filename: "bundle.js",
 > > },
 > >
