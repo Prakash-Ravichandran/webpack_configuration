@@ -154,10 +154,6 @@
 
 > set clean as true
 >
-> > ```
-> >
-> > ```
-> >
 > > rules: [
 > > {
 > > test: /\.js$/,
