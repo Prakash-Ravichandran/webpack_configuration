@@ -68,7 +68,7 @@
 
 ## configuration of html-webpack-plugin
 
-> Specify webpack to pick the template.html file to be generated in dist/.<br> > [Refer Loaders in detail](https://webpack.js.org/concepts/loaders/).
+> Specify webpack to pick the template.html file to be generated in dist/.<br> > [Refer Plugins in detail](https://webpack.js.org/concepts/plugins/#root).
 >
 > > ```
 > >
@@ -80,5 +80,42 @@
 > >     template: "./src/template.html",
 > >   }),
 > > ],
+> >
+> > ```
+
+## installation of webpack-dev-server
+
+> Save as dev dependencies
+>
+> > ```
+> >    npm i -D webpack-dev-server
+> >
+> > ```
+
+## run webpack-dev-server
+
+> run as
+>
+> > ```
+> >    npm run dev
+> >
+> > ```
+
+## configuration of webpack-dev-server
+
+> Specify webpack to serve the application as live while running ``npm run dev`<br> > [Refer webpack-dev-server in detail](https://webpack.js.org/concepts/plugins/#root).
+>
+> > ```
+> >
+> > devServer: {
+> >    static: {
+> >      directory: path.resolve(__dirname, "dist"),
+> >    },
+> >    port: 3000,    // to run in 3000 port
+> >    open: true,    // to open in a new tab as we run the command
+> >    hot: true,
+> >    compress: true,
+> >    historyApiFallback: true,
+> >  },
 > >
 > > ```
