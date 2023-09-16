@@ -57,7 +57,7 @@
 > >
 > > ```
 
-## installation of sass, sass-loader,style-loader
+## installation of html-webpack-plugin
 
 > Save as dev dependencies
 >
