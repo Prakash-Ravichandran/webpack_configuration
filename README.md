@@ -42,7 +42,7 @@
 
 ## configuration of sass-loaders,css-loaders,style-loaders
 
-> Specify where webpack has to start building its internal dependency graph.<br> > [Refer Loaders in detail](https://webpack.js.org/concepts/loaders/).
+> Specify webpack to test & build the file which ends with .scss.<br> > [Refer plugins in detail](https://webpack.js.org/concepts/plugins/#usage).
 >
 > > ```
 > >
@@ -54,5 +54,31 @@
 > >       },
 > >    ],
 > >   },
+> >
+> > ```
+
+## installation of sass, sass-loader,style-loader
+
+> Save as dev dependencies
+>
+> > ```
+> >    npm i -D html-webpack-plugin
+> >
+> > ```
+
+## configuration of html-webpack-plugin
+
+> Specify webpack to pick the template.html file to be generated in dist/.<br> > [Refer Loaders in detail](https://webpack.js.org/concepts/loaders/).
+>
+> > ```
+> >
+> > module: {
+> >  plugins: [
+> >    new HtmlWebpackPlugin({
+> >     title: "Webpack App",
+> >      filename: "index.html",
+> >     template: "./src/template.html",
+> >   }),
+> > ],
 > >
 > > ```
