@@ -20,8 +20,7 @@
 
 ## configuration of entries - input,output
 
-> Specify where webpack has to start building its internal dependency graph.<br>
-> [Refer Entries in detail](https://webpack.js.org/concepts#entry).
+> Specify where webpack has to start building its internal dependency graph.<br> > [Refer Entries in detail](https://webpack.js.org/concepts#entry).
 >
 > > ```
 > >
@@ -31,4 +30,12 @@
 > > filename: "bundle.js",
 > > },
 > >
+> > ```
+
+## installation of sass, sass-loader,style-loader
+
+> Save as dev dependencies
+>
+> > ```
+> >    npm i -D sass sass-loader style-loader css-loader
 > > ```
