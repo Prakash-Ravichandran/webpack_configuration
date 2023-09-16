@@ -39,3 +39,20 @@
 > > ```
 > >    npm i -D sass sass-loader style-loader css-loader
 > > ```
+
+## configuration of sass-loaders,css-loaders,style-loaders
+
+> Specify where webpack has to start building its internal dependency graph.<br> > [Refer Loaders in detail](https://webpack.js.org/concepts/loaders/).
+>
+> > ```
+> >
+> > module: {
+> >   rules: [
+> >      {
+> >        test: /\.scss$/,
+> >       use: ["style-loader", "css-loader", "sass-loader"],
+> >       },
+> >    ],
+> >   },
+> >
+> > ```
