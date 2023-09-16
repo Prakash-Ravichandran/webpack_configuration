@@ -119,3 +119,15 @@
 > >  },
 > >
 > > ```
+
+## bundle with contenthash & clean new output old bundles
+
+> set clean as true
+>
+> > ```
+> >   output: {
+> >    path: path.resolve(__dirname, "dist"),
+> >    filename: "[name][contenthash].js",
+> >    clean: true,
+> >    }
+> > ```
