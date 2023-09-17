@@ -1,3 +1,6 @@
+
+![image](https://github.com/Prakash-Ravichandran/webpack_configuration/assets/74542543/99733ad0-3142-4e74-8b57-c274febe41d0)
+
 # webpack_configuration
 
 ## installation of webpack,webpack cli
