@@ -15,7 +15,14 @@ module.exports = {
   },
   devtool: "source-map",
   devServer: {
-    contentBase: "./build",
+    static: {
+      directory: path.resolve(__dirname, "dist"),
+    },
+    port: 3000, // to run in 3000 port
+    open: true, // to open in a new tab as we run the command
+    hot: true,
+    compress: true,
+    historyApiFallback: true,
   },
   module: {
     rules: [
