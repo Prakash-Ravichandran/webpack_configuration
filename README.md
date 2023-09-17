@@ -2,7 +2,24 @@ Preview of the app
 
 ![image](https://github.com/Prakash-Ravichandran/webpack_configuration/assets/74542543/99733ad0-3142-4e74-8b57-c274febe41d0)
 
+# Clone the webpack starter & start developing your app
+
+> steps to clone & run in local
+>
+> > ```
+> >    git clone https://github.com/Prakash-Ravichandran/webpack_configuration.git
+> >
+> >    npm install
+> >
+> >    npm run build
+> >
+> >    npm run dev
+> >
+> > ```
+
 # webpack_configuration
+
+> > Visit the live link of the demo app - [demo-app](https://webpack-demoapp.netlify.app/).
 
 ## installation of webpack,webpack cli
 
